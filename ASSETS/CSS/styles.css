@@ -69,3 +69,26 @@ body {
     color: white;
     padding: 5px 10px;
 }
+
+/*La responsividad, tirao 1 sola talla pa teléfonos chicos, grandes, gordos, flacos,
+con chicharrones, integrales, blancos y sin gluten*/
+
+@media (max-width: 768px) {
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    .product-card {
+        margin-bottom: 20px;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart-item img {
+        margin-bottom: 10px;
+    }
+}
