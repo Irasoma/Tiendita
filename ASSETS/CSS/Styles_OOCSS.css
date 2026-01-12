@@ -1,0 +1,60 @@
+/*Estructura de objetos*/
+.box {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/*Skins*/
+.bg-dark {
+    background-color: #1c1c1c;
+}
+
+.bg-brown {
+    background-color: #3b2f2f;
+}
+
+.text-red {
+    color: #ff4c4c;
+}
+
+.text-light {
+    color: #e0e0e0;
+}
+
+/*Componentes*/
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-red {
+    background-color: #b30000;
+    color: white;
+}
+
+/*Carrito*/
+.cart-item img {
+    width: 60px;
+    height: 60px;
+}
+
+/*No incluyo la modificacion de html porque a mi tienda le voy a colocar BEM*/

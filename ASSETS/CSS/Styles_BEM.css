@@ -1,0 +1,81 @@
+/*Base*/
+body {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+/*Barra navegación (bloque)*/
+.navbar {
+    background-color: #111;
+}
+
+.navbar__brand {
+    color: #ff4c4c;
+}
+
+/*Bloque de las tarjetas de productos*/
+.product-card {
+    background-color: #3b2f2f;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card__image {
+    width: 100%;
+}
+
+.product-card__title {
+    color: #ff4c4c;
+}
+
+.product-card__price {
+    color: #e0e0e0;
+}
+
+/*Botones*/
+.button {
+    border: none;
+}
+
+.button--primary {
+    background-color: #b30000;
+    color: white;
+}
+
+.button--outline {
+    border: 1px solid #b30000;
+    color: #b30000;
+}
+
+/*Carrito*/
+.cart {
+    background-color: #1c1c1c;
+}
+
+.cart__item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.cart__image {
+    width: 60px;
+    height: 60px;
+}
+
+.cart__info {
+    flex-grow: 1;
+}
+
+/*Footer*/
+.footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 20px;
+}
+
+/*Wa a incluir el html en la siguiente version de subida en git*/
